@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="application/javascript" src="js/jquery-1.11.1.js"></script>    
+	    <script>
+	        function loadreport2(id) {
+	            alert(id + "---------------");	  
+	            //window.frames['reportframe'].src = 'forget_password.html';
+	            
+	            
+	            
+	            $("#reportframe").attr("src","http://www.jb51.net ") 
+	           	//$('#reportframe').attr('src', 'http://www.jb51.net');
+	            //$("#reportframe").attr("src", "../Report/HourlyReport");
+	        }
+	    </script>
+		
+		<link rel="stylesheet" href="css/bootstrap.css" />
+	</head>
+	<body>
+		<div class="row">
+		  <div class="col-lg-6">
+		    <div class="input-group">
+		      <span class="input-group-addon">
+		        <input type="checkbox" aria-label="...">
+		        wwwwwwwwwwwww
+		        <input type="checkbox" aria-label="...">
+		        wwwwwwwwwwwww
+		        <input type="checkbox" aria-label="...">
+		        wwwwwwwwwwwww
+		        <input type="checkbox" aria-label="...">
+		        wwwwwwwwwwwww
+		      </span>
+		    </div><!-- /input-group -->
+		  </div><!-- /.col-lg-6 -->
+		</div><!-- /.row -->
+		
+		<input type="button" onclick="loadreport2('sbtn')" value="s按时a"></input>
+	
+	    <iframe src="Btn.html" frameborder="0" style="height:180px;background-color:gray;"></iframe>
+	    <iframe id="reportframe" name="reportframe" src="Highcharts_Example.html" frameborder="0" style="height:1600px"></iframe>
+	</body>
+</html>

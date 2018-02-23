@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+		    function loadreport(id) { 
+	            alert(id);
+		        window.parent.loadreport2(id);
+		    }
+		</script>
+	</head>
+	<body>
+		<button type="submit" style="display:inline;" onclick="loadreport('sbtn')" value="reportframe">submit</button>
+	</body>
+</html>
